@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(56, 56, 56);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+    color: green;
+}
+
+#description {
+    font-size: 25px;
+    text-align: center;
+    color: green;
+    padding: 10px 0 10px 0;
+}
+
+.text-inputs {
+    min-width: 100px;
+    max-width: 75%;
+    height: 30px;
+}
+
+#buttons-div {
+    text-align: center;
+}
+
+.buttons {
+    font-size: 20px;
+    border-style: hidden;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    color: white;
+    margin: 40px 10px 20px 20px;
+}
+
+.buttons:hover {
+    font-weight: bold;
+}
+
+#submit:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+#reset:hover {
+    background-color: white;
+    color: red;
+}
+
+#form-outer-container {
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(44, 44, 44);
+}
+
+#form-inner-container {
+    display: grid;
+    grid-gap: 30px 4%;
+    grid-template-columns: 48% 48%;
+    grid-template-areas:
+        "label-one value-one"
+        "label-two value-two"
+        "label-three value-three"
+        "label-four value-four"
+        "label-five value-five"
+        "label-six value-six";
+}
+
+#form-label-one {
+    grid-area: label-one;
+    display: grid;
+    grid-auto-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+#form-value-one {
+    grid-area: value-one;
+    display: grid;
+    grid-auto-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+#form-label-two {
+    grid-area: label-two;
+}
+
+#form-value-two {
+    grid-area: value-two;
+}
+
+#form-label-three {
+    grid-area: label-three;
+}
+
+#form-value-three {
+    grid-area: value-three;
+}
+
+#form-label-four {
+    grid-area: label-four;
+}
+
+#form-value-four {
+    grid-area: value-four;
+}
+
+#form-label-five {
+    grid-area: label-five;
+}
+
+#form-value-five {
+    grid-area: value-five;
+}
+
+#form-label-six {
+    grid-area: label-six;
+}
+
+#form-value-six {
+    grid-area: value-six;
+}
+
+.left-elements {
+    text-align: right;
+    color: cornflowerblue;
+
+}
+
+.right-elements {
+    text-align: left;
+    color: dodgerblue;
+}
+
+.select-inputs {
+    margin: 10px;
+    height: 30px;
+}
